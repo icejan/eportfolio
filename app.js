@@ -1,3 +1,4 @@
+document.addEventListener("touchstart", function() {}, true);
 var theme__icon = document.getElementById("theme__icon");
     theme__icon.onclick = function() {
         document.body.classList.toggle("dark-theme");
@@ -7,3 +8,4 @@ var theme__icon = document.getElementById("theme__icon");
             theme__icon.className="fas fa-moon fa-sm";
         }
     }
+

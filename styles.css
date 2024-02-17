@@ -507,4 +507,10 @@ footer {
     text-align: center;
     margin: 12px 0;
   }
+
+  .row{
+    width:370px;
+  }
+  
 }
+
