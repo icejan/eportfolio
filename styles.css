@@ -483,6 +483,10 @@ footer {
     display: none;
   }
 
+  .sub_language{
+    display:none;
+  }
+
   .project__description {
     padding: 0;
     left: 0;
