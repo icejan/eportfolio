@@ -13,9 +13,7 @@
         <nav>
             <div class="personal_logo">Janice Zhu</div>
             <ul class="nav__link--list">
-                <li class="theme__icon">
-                    <i class="fas fa-moon fa-sm" id="theme__icon"></i>
-                </li>
+                
                 <li class="nav__link">
                     <a href="#projects" class="
                         nav__link--anchor
@@ -24,11 +22,21 @@
                     ">Projects</a>
                 </li>
                 <li class="nav__link">
+                    <a href="./assets/Resume.pdf" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black
+                    ">Resume</a>
+                </li>
+                <li class="nav__link">
                     <a href="/illustrations/illustrations.html" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">Illustrations</a>
+                </li>
+                <li class="theme__icon">
+                    <i class="fas fa-moon fa-sm" id="theme__icon"></i>
                 </li>
                 <li class="nav__link">
                     <a href="mailto:janice.zhu@torontomu.ca " class="
@@ -119,30 +127,7 @@
                         </figure>
                         <span class="language__name">React.js</span>
                     </div>
-                    <div class="language sub_language">
-                        <figure class="language__img--wrapper">
-                            <img src="./assets/bash_logo.png" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">Bash</span>
-                    </div>
-                    <div class="language sub_language">
-                        <figure class="language__img--wrapper">
-                            <img src="./assets/asm_logo.svg" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">Assembly</span>
-                    </div>
-                    <div class="language sub_language">
-                        <figure class="language__img--wrapper">
-                            <img src="./assets/matlab_logo_1.png" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">MATLAB</span>
-                    </div>
-                    <div class="language sub_language">
-                        <figure class="language__img--wrapper">
-                            <img src="./assets/excel_logo.png" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">Excel (VBA)</span>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -151,16 +136,39 @@
         <div class="container">
             <div class="row">
                 <h1 class="section__title"><span class="text--blue">Projects</span></h1>
+                <p class="about-me__info--paragraph 
+                secondary_color">
+                    See more at <a href="https://github.com/icejan" target="_blank" class="text--blue">
+                        <u>www.github.com/icejan</u>
+                    </a>
+                </p>
                 <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/art_store_prev.png" class="project__img" alt="Movie Store DBMS Project">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Art Supply Store - 2024</h3>
+                                <h4 class="project__description--sub-title">JSP, Java Servlet, Apache TomCat, SQL, JavaScript</h4>
+                                <p class="project__description--para">
+                                    This application allows an art supply store to sell items to user's online. All account and cart information are stored persistently in an online database.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/icejan/Online-Art-Store" target="_blank" class="project__description--link">
+                                        <i class="fab fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="project">
                         <div class="project__wrapper">
                             <img src="./assets/controller_web_app_prev.png" class="project__img" alt="Movie Store DBMS Project">
                             <div class="project__description">
-                                <h3 class="project__description--title">Music Controller Web Application - 2024</h3>
+                                <h3 class="project__description--title">Music Controller App - 2023/24</h3>
                                 <h4 class="project__description--sub-title">React.js, Python, Django REST Framework</h4>
                                 <p class="project__description--para">
-                                    This web application lets users collabortate in a room to share controls on the music currently playing. 
-                                    The host of the room can connect to Spotify and allow other users in the room to control the music playing depending on the permmissions set.
+                                    This web application lets users collabortate in a room to share controls on the current music playing. 
+                                    The host of the room can connect to Spotify and allow other users in the room to control the music playing depending on the permissions set.
                                 </p>
                                 <div class="project__description--links">
                                     <a href="https://github.com/icejan/Controller-Web-App" target="_blank" class="project__description--link">
@@ -191,49 +199,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <img src="./assets/Movie_dbms_prev.png" class="project__img" alt="Movie Store DBMS Project">
-                            <div class="project__description">
-                                <h3 class="project__description--title">Movie Store Database - 2022</h3>
-                                <h4 class="project__description--sub-title">SQL, Unix Shell Scripting, .NET C#</h4>
-                                <p class="project__description--para">
-                                    This program aids a movie store owner in managing their inventory of movies online to sell or rent to customers 24/7. 
-                                    Relational techniques were learnt and used to optimize the database by reducing tables while keeping the functionalities. 
-                                </p>
-                                <div class="project__description--links">
-                                    <a href="https://github.com/icejan/Movie-DBMS" target="_blank" class="project__description--link">
-                                        <i class="fab fa-brands fa-github"></i>
-                                    </a>
-                                    <a href="./assets/Movie_Project_Report.pdf" target="_blank" class="project__description--link">
-                                        <i class="fas fa-solid fa-file-pdf"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <img src="./assets/Bookstore_App_prev.png" class="project__img" alt="Movie Store DBMS Project">
-                            <div class="project__description">
-                                <h3 class="project__description--title">Bookstore Application - 2021</h3>
-                                <h4 class="project__description--sub-title">Java, JavaFX, UML</h4>
-                                <p class="project__description--para">
-                                    This application provdes a user-friendly GUI for the owner and customers in a bookstore. 
-                                    Object orientated programming analysis and techniques were applied to the program to design a smooth process for owners and customers to view and interact with the books.
-                                </p>
-                                <div class="project__description--links">
-                                    <a href="https://github.com/icejan/Bookstore-Application" target="_blank" class="project__description--link">
-                                        <i class="fab fa-brands fa-github"></i>
-                                    </a>
-                                    <a href="./assets/Bookstore_App_Project_Report.pdf" target="_blank" class="project__description--link">
-                                        <i class="fas fa-solid fa-file-pdf"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -260,7 +226,7 @@
                 link__hover-effect
                 link__hover-effect--white
                 " target="_blank">Email</a>
-                <a href="./assets/Resume_ver0.pdf" class="
+                <a href="./assets/Resume.pdf" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect--white

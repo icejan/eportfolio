@@ -118,6 +118,10 @@ section:nth-child(even) {
 .text--blue {
   color: var(--quaternary-color);
 }
+
+.secondary_color {
+  color: var(--secondary-color);
+}
 /* NAVIGATION BAR */
 
 nav {
