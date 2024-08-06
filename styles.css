@@ -73,7 +73,7 @@ i:hover {
 }
 
 .link__hover-effect--white:after {
-  background-color: var(--primary-color);
+  background-color: white;
 }
 
 .link__hover-effect--black:after {
